@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Proyecto Web</title>
+    <style>
+        /* Estilos globales */
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+            color: #333;
+        }
+
+        /* Encabezado */
+        header {
+            background: #6200ea;
+            color: #fff;
+            padding: 1rem 0;
+            text-align: center;
+        }
+
+        header h1 {
+            margin: 0;
+        }
+
+        header p {
+            font-size: 1.2rem;
+            margin-top: 0.5rem;
+        }
+
+        /* Secciones */
+        section {
+            margin: 20px auto;
+            padding: 20px;
+            max-width: 800px;
+            background: #fff;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        section h2 {
+            color: #6200ea;
+        }
+
+        /* Galería de imágenes */
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+            gap: 10px;
+        }
+
+        .gallery img {
+            width: 100%;
+            border-radius: 5px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+        }
+
+        /* Pie de página */
+        footer {
+            text-align: center;
+            padding: 10px 0;
+            background: #6200ea;
+            color: #fff;
+            margin-top: 20px;
+        }
+
+        footer a {
+            color: #ffcc00;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <!-- Encabezado -->
+    <header>
+        <h1>Bienvenido a Mi Proyecto</h1>
+        <p>Una página sencilla creada con HTML y CSS</p>
+    </header>
+
+    <!-- Introducción -->
+    <section>
+        <h2>Introducción</h2>
+        <p>Este proyecto tiene como objetivo mostrar cómo se puede crear una página web básica utilizando HTML y CSS. La estructura incluye un encabezado, varias secciones y estilos personalizados.</p>
+    </section>
+
+    <!-- Galería de Imágenes -->
+    <section>
+        <h2>Galería de Imágenes</h2>
+        <div class="gallery">
+            <img src="https://via.placeholder.com/150" alt="Imagen 1">
+            <img src="https://via.placeholder.com/150" alt="Imagen 2">
+            <img src="https://via.placeholder.com/150" alt="Imagen 3">
+            <img src="https://via.placeholder.com/150" alt="Imagen 4">
+        </div>
+    </section>
+
+    <!-- Contacto -->
+    <section>
+        <h2>Contacto</h2>
+        <p>Si tienes alguna consulta, no dudes en <a href="mailto:correo@example.com">enviar un correo</a>.</p>
+    </section>
+
+    <!-- Pie de página -->
+    <footer>
+        <p>&copy; 2024 Mi Proyecto Web | Diseñado con <a href="#">❤</a></p>
+    </footer>
+</body>
+</html>
